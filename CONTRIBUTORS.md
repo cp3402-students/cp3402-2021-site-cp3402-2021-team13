@@ -3,7 +3,7 @@
 ## Special thanks for all the people who have helped this project so far:
 
 * [Contributor #1](http://LINK_HERE)
-* [Contributor #2](http://LINK_HERE)
+* [James Campbell](https://github.com/jc261936)
 * [Vicki Edge](https://github.com/vickiedge)
 * [Contributor #4](http://LINK_HERE)
 
