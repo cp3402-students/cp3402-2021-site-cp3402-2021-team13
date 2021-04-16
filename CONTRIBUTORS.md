@@ -5,7 +5,7 @@
 * [Contributor #1](http://LINK_HERE)
 * [James Campbell](https://github.com/jc261936)
 * [Vicki Edge](https://github.com/vickiedge)
-* [Contributor #4](http://LINK_HERE)
+* [David Renderos](https://github.com/davidrenderos)
 
 ## I would like to join this list. How can I help the project?
 
