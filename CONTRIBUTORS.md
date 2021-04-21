@@ -2,7 +2,7 @@
 
 ## Special thanks for all the people who have helped this project so far:
 
-* [Contributor #1](http://LINK_HERE)
+* [Alexander Campbell](http://https://github.com/AlexCampbellJCU)
 * [James Campbell](https://github.com/jc261936)
 * [Vicki Edge](https://github.com/vickiedge)
 * [David Renderos](https://github.com/davidrenderos)
