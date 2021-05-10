@@ -16,6 +16,7 @@
         <!-- WP nav menu. Adjust Social Media Menu on admin-->
         <?php wp_nav_menu(array('theme_location' => 'social-menu')); ?>
     </nav> <!-- .social-nav -->
+    <a class="back-to-top" href="#">Back to Top</a>
     <div class="site-info">
         <a href="<?php echo esc_url(__('https://wordpress.org/', 'cp3402-base-theme')); ?>">
             <?php
