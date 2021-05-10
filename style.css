@@ -1038,6 +1038,17 @@ textarea {
     width: auto;
 }
 
+/*--------------------------------------------------------------
+# Content Body
+--------------------------------------------------------------*/
+.site-content {
+    padding: 1em;
+}
+
+/*--------------------------------------------------------------
+# header media queries
+--------------------------------------------------------------*/
+
 @media screen and (min-width: 600px) {
 
     .site-header {
@@ -1052,11 +1063,19 @@ textarea {
     }
 }
 
-/*--------------------------------------------------------------
-# Content Body
---------------------------------------------------------------*/
-.site-content {
-    padding: 1em;
+@media screen and (min-width: 900px) {
+    .site-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .site-branding {
+        width: 35%;
+        flex: 1 0 auto;
+    }
+
+    .site-navigation {
+        width: 55%;
+    }
 }
 
 /*--------------------------------------------------------------
