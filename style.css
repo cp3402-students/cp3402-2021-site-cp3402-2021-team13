@@ -880,8 +880,9 @@ textarea {
     position: relative;
     padding: 1em;
     color: #fff;
-    background-color: black;
+    background-color: #00497a;
     text-align: center;
+    font-weight: bold;
 }
 
 .social-nav ul {
