@@ -874,6 +874,35 @@ textarea {
     display: block;
 }
 
+/* Footer
+--------------------------------------------- */
+.site-footer {
+    position: relative;
+    padding: 1em;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+}
+
+.social-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.social-nav ul a {
+    display: block;
+    padding: 0.5em 1em;
+    color: white;
+}
+.social-nav ul a:hover, .social-nav ul a:focus {
+    text-decoration: underline;
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
