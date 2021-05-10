@@ -12,6 +12,10 @@
 ?>
 
 <footer id="colophon" class="site-footer">
+    <nav class="social-nav">
+        <!-- WP nav menu. Adjust Social Media Menu on admin-->
+        <?php wp_nav_menu(array('theme_location' => 'social-menu')); ?>
+    </nav> <!-- .social-nav -->
     <div class="site-info">
         <a href="<?php echo esc_url(__('https://wordpress.org/', 'cp3402-base-theme')); ?>">
             <?php
