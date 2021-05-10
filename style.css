@@ -1038,6 +1038,21 @@ textarea {
     width: auto;
 }
 
+@media screen and (min-width: 600px) {
+
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .site-branding {
+        width: 35%;
+    }
+    .main-navigation {
+        width: 55%;
+    }
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
