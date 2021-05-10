@@ -1,6 +1,6 @@
 # Authors
 - [David Renderos](https://github.com/davidrenderos)
-- 2
+- [Vicki Edge](https://github.com/vickiedge)
 - 3
 - 4
 # Installation
