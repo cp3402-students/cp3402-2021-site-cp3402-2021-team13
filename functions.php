@@ -51,7 +51,7 @@ if (! function_exists('cp3402_base_theme_setup')) :
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(
             array(
-                'menu-1' => esc_html__('Primary', 'cp3402-base-theme'),
+                'menu-1' => esc_html__('Header-menu', 'cp3402-base-theme'),
             )
         );
 
@@ -95,8 +95,8 @@ if (! function_exists('cp3402_base_theme_setup')) :
         add_theme_support(
             'custom-logo',
             array(
-                'height'      => 250,
-                'width'       => 250,
+                'height'      => 90,
+                'width'       => 90,
                 'flex-width'  => true,
                 'flex-height' => true,
             )
@@ -147,13 +147,11 @@ function cp3402_base_theme_scripts()
     wp_enqueue_style('cp3402-base-theme-style', get_stylesheet_uri(), array(), _S_VERSION);
     wp_style_add_data('cp3402-base-theme-style', 'rtl', 'replace');
 
-    wp_enqueue_script(
-        'cp3402-base-theme-navigation',
-        get_template_directory_uri() . '/js/navigation.js',
-        array(),
-        _S_VERSION,
-        true
-    );
+    wp_enqueue_script( 'cp3402-base-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array( 'jquery' ), _S_VERSION, false );
+	wp_localize_script( 'cp3402-base-theme-navigation', 'cp3402-base-themeScreenReaderText', array(
+		'expand' => __( 'Expand child menu', 'cp3402-base-theme' ),
+		'collapse' => __( 'Collapse child menu', 'cp3402-base-theme' ),
+	));
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
