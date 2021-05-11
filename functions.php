@@ -149,6 +149,8 @@ add_action('widgets_init', 'cp3402_base_theme_widgets_init');
  */
 function cp3402_base_theme_scripts()
 {
+    // Enqueue Google Fonts: Source Sans Pro and IBM Plex
+    wp_enqueue_style('humescores-fonts', 'https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;0,900;1,400&display=swap');
     wp_enqueue_style('cp3402-base-theme-style', get_stylesheet_uri(), array(), _S_VERSION);
     wp_style_add_data('cp3402-base-theme-style', 'rtl', 'replace');
 
