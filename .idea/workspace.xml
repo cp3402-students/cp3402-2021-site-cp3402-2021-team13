@@ -23,10 +23,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="header" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -36,14 +37,7 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="hiddenUrls">
-      <set>
-        <option value="https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team13" />
-      </set>
-    </option>
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Php 8">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpcompatibility/php-compatibility" />
       <path value="$PROJECT_DIR$/vendor/phpcompatibility/phpcompatibility-paragonie" />
@@ -82,11 +76,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cp3402-base-theme/cp3402-base-theme/functions.php" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/cp3402-base-theme/cp3402-base-theme/functions.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -103,9 +98,17 @@
       <workItem from="1620347213191" duration="14851000" />
       <workItem from="1620444141481" duration="4817000" />
       <workItem from="1620546819503" duration="2960000" />
-      <workItem from="1620556921845" duration="718000" />
-      <workItem from="1620643844166" duration="4901000" />
+      <workItem from="1620556921845" duration="1007000" />
+      <workItem from="1620612880422" duration="271000" />
     </task>
+    <task id="LOCAL-00001" summary="Reformat PHP">
+      <created>1620557813075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620557813075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
