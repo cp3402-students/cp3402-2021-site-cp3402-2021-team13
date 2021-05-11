@@ -161,7 +161,7 @@ function cp3402_base_theme_scripts()
         get_template_directory_uri() . '/js/navigation.js',
         array( 'jquery' ),
         _S_VERSION,
-        false
+        true
     );
     wp_localize_script('cp3402-base-theme-navigation', 'cp3402-base-themeScreenReaderText', array(
         'expand' => __('Expand child menu', 'cp3402-base-theme'),
