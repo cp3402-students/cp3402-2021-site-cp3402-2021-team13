@@ -29,14 +29,14 @@
     ); ?>
     </a>
 
-	<?php if ( get_header_image() && is_front_page()) : ?>
+    <?php if (get_header_image() && is_front_page()) : ?>
         <figure class="header-image">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-                <img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>"
-                 height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
+            <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+                <img src="<?php header_image(); ?>" width="<?php echo esc_attr(get_custom_header()->width); ?>"
+                 height="<?php echo esc_attr(get_custom_header()->height); ?>" alt="">
             </a>
         </figure><!-- .header image -->
-	<?php endif; // End header image check. ?>
+    <?php endif; // End header image check. ?>
 
     <header id="masthead" class="site-header">
         <div class="site-branding">
@@ -68,9 +68,9 @@
                 'Primary Menu',
                 'cp3402-base-theme'
             ); ?></button>
-            <?php wp_nav_menu( array(
+            <?php wp_nav_menu(array(
                     'theme_location' => 'menu-menu-1-container',
                     'menu_id'        => 'primary-menu',
-                ) ); ?>
+                )); ?>
         </nav><!-- #site-navigation -->
     </header><!-- #masthead -->
