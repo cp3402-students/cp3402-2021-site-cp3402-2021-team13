@@ -26,7 +26,17 @@
     <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e(
         'Skip to content',
         'cp3402-base-theme'
-    ); ?></a>
+    ); ?>
+    </a>
+
+	<?php if ( get_header_image() && is_front_page()) : ?>
+        <figure class="header-image">
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                <img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>"
+                 height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
+            </a>
+        </figure><!-- .header image -->
+	<?php endif; // End header image check. ?>
 
     <header id="masthead" class="site-header">
         <div class="site-branding">
@@ -34,6 +44,7 @@
             the_custom_logo();
             if (is_front_page() && is_home()) :
                 ?>
+            <div class="site-branding_text">
                 <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
                         <?php bloginfo('name'); ?></a></h1>
                 <?php
@@ -49,6 +60,7 @@
                 <p class="site-description"><?php echo $cp3402_base_theme_description;
                 // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
             <?php endif; ?>
+            </div><!-- .site-branding_text -->
         </div><!-- .site-branding -->
 
         <nav id="site-navigation" class="main-navigation">
@@ -56,13 +68,9 @@
                 'Primary Menu',
                 'cp3402-base-theme'
             ); ?></button>
-            <?php
-            wp_nav_menu(
-                array(
-                    'theme_location' => 'menu-1',
+            <?php wp_nav_menu( array(
+                    'theme_location' => 'menu-menu-1-container',
                     'menu_id'        => 'primary-menu',
-                )
-            );
-            ?>
+                ) ); ?>
         </nav><!-- #site-navigation -->
     </header><!-- #masthead -->
