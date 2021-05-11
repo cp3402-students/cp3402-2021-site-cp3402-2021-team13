@@ -648,7 +648,7 @@ textarea {
 
 /* Navigation
 --------------------------------------------- */
-.main-navigation {
+main-navigation {
     display: block;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-weight: 400;
@@ -661,11 +661,18 @@ textarea {
     padding-top: 1em;
     padding-left: 0;
 }
+
 .main-navigation ul ul {
     display: none;
+    position: absolute;
     top: 1.5em;
+    left: 0;
     z-index: 99999;
+    width: 180px;
+    background: #fff;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
 }
+
 .main-navigation ul ul ul {
     top: 0;
 }
@@ -681,6 +688,7 @@ textarea {
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
     left: auto;
+    display: block;
 }
 .main-navigation li {
     position: relative;
@@ -705,7 +713,7 @@ textarea {
     padding-right: 2em;
 }
 
-button.dropdown-toggle {
+.button.dropdown-toggle {
     position: absolute;
     right: 0;
     border: none;
@@ -755,7 +763,7 @@ button.dropdown-toggle {
         margin-left: 0;
     }
     .main-navigation ul ul li {
-        padding-left: 0;
+        padding-left: 1em;
     }
     .main-navigation ul ul li a {
         width: 218px;
@@ -770,6 +778,7 @@ button.dropdown-toggle {
         justify-content: flex-end;
         padding-top: 0;
     }
+}
 }/*end styling header menu*/
 
 .site-main .comment-navigation,
