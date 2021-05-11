@@ -51,7 +51,8 @@ if (! function_exists('cp3402_base_theme_setup')) :
         // This theme uses wp_nav_menu() in one location.
         register_nav_menus(
             array(
-                'menu-1' => esc_html__('Primary', 'cp3402-base-theme'),
+                'social-menu' => esc_html__('Social Media Menu', 'cp3402-base-theme'),
+
             )
         );
 
