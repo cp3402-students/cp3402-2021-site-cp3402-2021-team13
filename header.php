@@ -26,7 +26,8 @@
     <a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e(
         'Skip to content',
         'cp3402-base-theme'
-    ); ?></a>
+    ); ?>
+    </a>
 
 	<?php if ( get_header_image() && is_front_page()) : ?>
         <figure class="header-image">
@@ -67,13 +68,9 @@
                 'Primary Menu',
                 'cp3402-base-theme'
             ); ?></button>
-            <?php
-            wp_nav_menu(
-                array(
+            <?php wp_nav_menu( array(
                     'theme_location' => 'menu-menu-1-container',
                     'menu_id'        => 'primary-menu',
-                )
-            );
-            ?>
+                ) ); ?>
         </nav><!-- #site-navigation -->
     </header><!-- #masthead -->
