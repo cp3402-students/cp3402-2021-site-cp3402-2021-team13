@@ -4,6 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="7be4e455-4c46-4daa-8a84-af5ea1d92d4d" name="Default Changelist" comment="add Ubuntu Font to paragraph tag">
+      <change afterPath="$PROJECT_DIR$/js/mobile-menu-toggle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     <list default="true" id="7be4e455-4c46-4daa-8a84-af5ea1d92d4d" name="Default Changelist" comment="fix header image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -19,13 +24,21 @@
       <executable path="composer" />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fonts" />
+        <entry key="$PROJECT_DIR$" value="Margins" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -72,7 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cp3402-base-theme/cp3402-base-theme/functions.php" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -83,11 +96,6 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="two.files.diff.last.used.file" value="$USER_HOME$/Desktop/cp3402-base-theme/cp3402-base-theme/functions.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jamie\Local Sites\jazzclubdev\app\public\wp-content\themes\cp3402-2021-site-cp3402-2021-team13" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +112,12 @@
       <workItem from="1620546819503" duration="2960000" />
       <workItem from="1620556921845" duration="1007000" />
       <workItem from="1620612880422" duration="271000" />
+      <workItem from="1620713584723" duration="1950000" />
+      <workItem from="1620723152550" duration="1270000" />
+      <workItem from="1620962046195" duration="827000" />
+      <workItem from="1620963186513" duration="5072000" />
       <workItem from="1620961360202" duration="4629000" />
+
     </task>
     <task id="LOCAL-00001" summary="Reformat PHP">
       <created>1620557813075</created>
@@ -137,33 +150,13 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Margins" />
+                        <option value="Hamburger" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="fonts" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-            </list>
           </value>
         </entry>
       </map>
