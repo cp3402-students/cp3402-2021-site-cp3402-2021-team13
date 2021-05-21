@@ -476,7 +476,18 @@ big {
 body {
     background: #fff;
 }
-
+main {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+aside {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
 hr {
     background-color: #ccc;
     border: 0;

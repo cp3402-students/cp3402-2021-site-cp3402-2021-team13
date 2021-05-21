@@ -9,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+    <list default="true" id="7be4e455-4c46-4daa-8a84-af5ea1d92d4d" name="Default Changelist" comment="fix header image">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +116,8 @@
       <workItem from="1620723152550" duration="1270000" />
       <workItem from="1620962046195" duration="827000" />
       <workItem from="1620963186513" duration="5072000" />
+      <workItem from="1620961360202" duration="4629000" />
+
     </task>
     <task id="LOCAL-00001" summary="Reformat PHP">
       <created>1620557813075</created>
@@ -122,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620557813075</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix header image">
+      <created>1620712973969</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620712973969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +165,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Reformat PHP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reformat PHP" />
+    <MESSAGE value="fix header image" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix header image" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
