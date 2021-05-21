@@ -403,7 +403,7 @@ select,
 optgroup,
 textarea {
     color: #404040;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-family: 'IBM Plex Serif', serif,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-size: 1rem;
     line-height: 1.5;
 }
@@ -415,10 +415,12 @@ h4,
 h5,
 h6 {
     clear: both;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
     margin-bottom: 1.5em;
+    font-family:'Ubuntu', sans-serif;
 }
 
 dfn,
@@ -474,7 +476,18 @@ big {
 body {
     background: #fff;
 }
-
+main {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+aside {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
 hr {
     background-color: #ccc;
     border: 0;
@@ -670,7 +683,7 @@ main-navigation {
     z-index: 99999;
     width: 180px;
     background: #fff;
-    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 }
 
 .main-navigation ul ul ul {
@@ -782,9 +795,9 @@ main-navigation {
 /*end styling header menu*/
 
 .site-main .comment-navigation,
-.site-main
+.site-main,
 .posts-navigation,
-.site-main
+.site-main,
 .post-navigation {
     margin: 0 0 1.5em;
 }
@@ -1187,5 +1200,25 @@ a.back-to-top {
 
     .site-navigation {
         width: 55%;
+    }
+}
+.mobile-menu{
+    display: none;
+}
+@media only screen and (min-width: 800px){
+    .desktop-menu{
+        display: block !important;
+    }
+    .mobile-menu{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 799px){
+    .desktop-menu{
+        display: none !important;
+    }
+    .mobile-menu{
+        display: block !important;
     }
 }
