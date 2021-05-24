@@ -1,7 +1,7 @@
 # Authors
 - [David Renderos](https://github.com/davidrenderos)
 - [Vicki Edge](https://github.com/vickiedge)
-- 3
+- [James Campbell](https://github.com/jc261936)
 - 4
 # Installation
 1. Have Local environment setup on your Windows machine.
