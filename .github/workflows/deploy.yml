@@ -2,7 +2,7 @@ name: Test deploy
 on:
   push:
     branches:
-      - develop
+      - main
 jobs:
   ssh:
     name: SSH into test EC2 Instance
