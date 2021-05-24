@@ -1,12 +1,19 @@
-on: push
-name: Deploying WordPress Site
+on:
+  push:
+    branches:
+      - develop
 jobs:
-  deploy:
-    name: Deploy
+  ssh:
+    name: SSH into test EC2 Instance
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Deploy
-      uses: rtCamp/action-deploy-wordpress@v2.0.2
-      env:
-        SSH_PRIVATE_KEY: ${{ secrets.GROUP_13_SECRET }}
+    - name: Executing git commands
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.DEV_SITE }}
+        port: ${{ secrets.PORT }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.GROUP_13_SECRET }}
+        script: |
+          cd /var/www/html
+          git pull origin master
