@@ -1205,7 +1205,7 @@ a.back-to-top {
 .mobile-menu{
     display: none;
 }
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 600px){
     .desktop-menu{
         display: block !important;
     }
@@ -1214,7 +1214,7 @@ a.back-to-top {
     }
 }
 
-@media only screen and (max-width: 799px){
+@media only screen and (max-width: 900px){
     .desktop-menu{
         display: none !important;
     }
