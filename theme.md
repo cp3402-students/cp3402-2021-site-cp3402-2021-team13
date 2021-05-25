@@ -12,3 +12,6 @@ Media queries under the header section of style.css control screen responsivenes
 The navigation is enqueued in functions.php.  
 Styling in style.css under class .main-navigation. 
 Attempted navigation.js from TwentySeventeen theme, however this was not realised and a WordPress plugin for the menu was ultimately utilised.
+
+Mobile Version of the Header was coded inside Header.php, mobile-menu-toggle.js, but we opt out of tha method and used a plugin to handle Mobile Menus.
+
