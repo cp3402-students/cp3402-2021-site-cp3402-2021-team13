@@ -1136,6 +1136,8 @@ a.back-to-top {
 .site-description {
     font-style: italic;
     margin:0;
+    padding-left: 1em;
+    padding-top: 0.5em;
     font-size: .9em;
     font-weight: 100;
 }
@@ -1205,7 +1207,7 @@ a.back-to-top {
 .mobile-menu{
     display: none;
 }
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 600px){
     .desktop-menu{
         display: block !important;
     }
@@ -1214,7 +1216,7 @@ a.back-to-top {
     }
 }
 
-@media only screen and (max-width: 799px){
+@media only screen and (max-width: 900px){
     .desktop-menu{
         display: none !important;
     }
