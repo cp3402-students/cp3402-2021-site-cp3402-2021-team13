@@ -1136,6 +1136,8 @@ a.back-to-top {
 .site-description {
     font-style: italic;
     margin:0;
+    padding-left: 1em;
+    padding-top: 0.5em;
     font-size: .9em;
     font-weight: 100;
 }
