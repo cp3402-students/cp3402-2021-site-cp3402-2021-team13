@@ -9,7 +9,12 @@
 <li>To develop features or edit/update existing features create a new branch in the repository, appropriately named by job for version control.</li>
 <li>Note new developments, edits, and updates should be lodged on the Trello board, names for branches taken from theses card names.</li>    
 <li>The Trello board effectively project manages and keeps a historical record of the project.</li>    
-<li>Utilising a code editor such as PHPStorm or Visual Code Studio, customise the theme, making relevant commits, then push completed work to repository.</li>
+<li>Utilising a code editor such as PHPStorm or Visual Code Studio, or other IDE, and run:
+```sh
+$ composer install
+$ npm install
+```
+<li>In relevant IDE customise the theme, making relevant version control commits, then push completed work to repository.</li>
 <li>Create relevant pull requests to main branch.</li>
 <li>Pull requests must be tested before merging to main branch.</li>
 <li>Once the main branch is merged and updated with the changes, the repository can be pulled to local environment so as to be uploaded via zip file into the staging site via appearance/theme/add new, then activated to test in the staging website.</li>
