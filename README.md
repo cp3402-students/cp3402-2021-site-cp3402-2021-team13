@@ -11,5 +11,12 @@
 $ composer install
 $ npm install
 ```
+# Relevant links
+These are the links to the hosted sites, Trello board, Slack channel and Discord server:
+AWS Development Site
+Azure Production Site
+Production Management Trello Board
+Slack Channel - cp3402 - project - team13
+Discord Server - CP3402 Group 13
 
 
