@@ -51,4 +51,5 @@ $ npm install
 <li>Open Local WP, and then start the instance of your working local environment</li>
 <li>Pull changes from GitHub, following the notes in step 3. above</li>
 <li>After making changes, push your changes, following  the notes in step 5. above</li>
-<li>SSH</li>
+<li>Note: at the current stage of this project, automation has not been implemented.</li>
+<li>If any changes where made to the WordPress site (e.g. pages, post etc) you will need to upload the zip of the Github at its current state to test it .</li>
