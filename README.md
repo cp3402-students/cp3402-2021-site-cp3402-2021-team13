@@ -16,7 +16,7 @@
 [Theme.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team13/blob/main/theme.md)
 
 
-# Looking to help out? These where the next steps in our development workflow:
+# Looking to help out? These are the next steps in our development workflow:
 - Task automation 
 - Event calendar integration
 - Ticket purchasing online
