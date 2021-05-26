@@ -10,7 +10,9 @@
 
 # Documentation
 [Deployment.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team13/blob/main/deployment.md)
+
 [Site.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team13/blob/main/site.md)
+
 [Theme.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team13/blob/main/theme.md)
 
 
