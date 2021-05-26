@@ -36,4 +36,15 @@ All other content in the footer is associated to the _s starter theme, and you s
 
 Note: "back-to-top" is a button that is intended to add functionality of moving the webpage back to the top of the page.
 </p>
-
+<h3>Fonts</h3>
+<p>In Functions.php in the heading; function cp3402_base_theme_scripts() there have been some changes here.
+The changes include; new fonts for the body text, the heading text and bold text text.
+The change allows the developer to change the text by changing the link in the scripts to other fonts through google fonts.
+</p>
+<p>style.css for fonts can be sen if you search for "Typography" you can see the fonts used aswell, but to download new fonts
+it needs to be in both Function.php and Style.css to use online fonts.</p>
+<h3>Margins/Borders</h3>
+<p>For the main borders and margins used to center most of the content in the middle of the webpage the main and aside were
+needed to be padded and margined so no content can rest on the edges of the website and make the website feel more easier to read
+and look at. To change this, you will need to go into style.css and search for the "/* Elements" heading. Go down to the main and aside
+sub-headings and you are able to change the padding.</p>
