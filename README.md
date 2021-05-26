@@ -3,6 +3,7 @@
 - [Vicki Edge](https://github.com/vickiedge)
 - 3
 - 4
+
 # General Information
  - This repository holds the CP3402 Group13 Custom WordPress Theme, which is built on the Underscores starter theme (as per download April 2021).
 
@@ -14,3 +15,7 @@
 $ composer install
 $ npm install
 ```
+# Related Document Links
+ - Deployment.md
+ - Theme.md
+ - Site.md
