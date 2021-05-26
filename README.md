@@ -6,7 +6,7 @@
 
 # General Information
  - This repository holds the CP3402 Group13 Custom WordPress Theme, which is built on the Underscores starter theme (as per download April 2021).
- - This theme purpose is to be used in conjunction with the Townsville Jazz Club as part of a DevOps project. 
+ - The custom theme is to be used in conjunction with the Townsville Jazz Club as part of a DevOps project. 
 
 # Documentation
 [Deployment.md](https://github.com/cp3402-students/cp3402-2021-site-cp3402-2021-team13/blob/main/deployment.md)
