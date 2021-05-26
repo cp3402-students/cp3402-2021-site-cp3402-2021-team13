@@ -8,11 +8,10 @@ Workload divided between the four team members: site-header, site-footer, site-w
 <p>Has 5 components: header_image, header_logo, header_title, header_description, and main-navigation. 
 The /inc/custom-header.php is "required" on approx. line180 of the functions.php. This file allows customisation in WordPress, here the sizing for the header_image was adjusted to 2000x850 width and height.  
 
-The header_image is displayed only on the homepage (front page), code in header.php approx. line32. Style.css controls the appearance, scroll to the bottom of the file to find header styling. (Note: The class .site-header includes all 5 components, .site-branding includes logo, title and description, .site-branding_text is just title and description).  
-Media queries under the header section of style.css control screen responsiveness for the header. The navigation is enqueued in functions.php.  
+The header_image is displayed only on the homepage (front page), code in header.php approx. line32. Style.css controls the appearance, scroll to the bottom of the file to find header styling. (Note: The class .site-header includes all 5 components, .site-branding includes logo, title and description, .site-branding_text is just title and description).  Media queries under the header section of style.css control screen responsiveness for the header. 
 
-Styling in style.css under class .main-navigation. Attempted navigation.js from TwentySeventeen theme, however this was not realised, and a WordPress plugin for the menu was ultimately utilised. Mobile Version of the Header was coded inside Header.php, mobile-menu-toggle.js, but we opt out of tha method and used a plugin to handle Mobile Menus.</p>
-
+The navigation is enqueued in functions.php.  Styling in style.css under class .main-navigation. Attempted navigation.js from TwentySeventeen theme, however this was not realised, and a WordPress plugin for the menu was ultimately utilised. Mobile Version of the Header was coded inside Header.php, mobile-menu-toggle.js, but we opt out of tha method and used a plugin to handle Mobile Menus.
+</p>
 <h3>Site Footer:</h3>
 <p>The footer used in this theme incorporates "social-nav" styling that can be found in styles.css. The 'social-menu' is registered under _nav_menus  in 
 functions.php. When used in WP backend, this menu is intended to be viewed as a social media menu. This is all stored in 'cp3402-base-theme'.
