@@ -1,5 +1,9 @@
 **Plugins Required-**
-* Mobile Menu - By Rui Guerreiro
+* Mobile Menu - By Rui Guerreiro (Creates hamburger menu for small screen sizes)
+* All-in-One WP Migration - By ServMask (Safe saving of Wordpress database, for dev use only)
+* Exclude Pages From Menu - Vinod Dalvi (Adds a checkbox in pages WP pages to hide unintentional pages from menu)
+* WPForms Lite - WPForms (pro version required to achieve subscription)
+* Jetpack by WordPress.com - Automattic
 
 **Important Notes-**
 * To add new content Create new pages
