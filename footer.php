@@ -22,7 +22,7 @@
         <a href="<?php echo esc_url(__('https://wordpress.org/', 'cp3402-base-theme')); ?>">
             <?php
             /* translators: %s: CMS name, i.e. WordPress. */
-            printf(esc_html__('Proudly powered by %s', 'cp3402-base-theme'), 'WordPress');
+            printf(esc_html__('Proudly powered by %s', 'cp3402-base-theme-v1.0'), 'WordPress');
             ?>
         </a>
         <span class="sep"> | </span>
