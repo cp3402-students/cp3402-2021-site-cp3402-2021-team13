@@ -18,6 +18,7 @@
     </nav> <!-- .social-nav -->
     <a class="back-to-top" href="#">Back to Top</a>
     <div class="site-info">
+        &copy; <?php echo date('Y'); ?>
         <a href="<?php echo esc_url(__('https://wordpress.org/', 'cp3402-base-theme')); ?>">
             <?php
             /* translators: %s: CMS name, i.e. WordPress. */
